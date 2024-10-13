@@ -1,0 +1,33 @@
+main {
+    padding-top: 70px;
+    background-image: url(Картинки/Фон.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    margin: 10vw;
+    padding: 1em;
+    background-image: url(Картинки/Для\ дивок.png);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Times New Roman', serif;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+body {background-color:rgb(117, 92, 73);}
+
+
+@media screen and (max-width: 768px){
+        .content {font-size: 20px;}
+}
+
+header {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
